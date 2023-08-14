@@ -1,0 +1,8 @@
+function stringFunction(){
+    let text=prompt('Enter Your String');
+  let splitText=text.split("");
+  let newtext=splitText.reverse();
+  console.log(newtext);
+  }
+
+  stringFunction()
